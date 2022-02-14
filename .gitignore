@@ -1,0 +1,4 @@
+#gitignore hides things that we dont want on github
+.env
+marvel_env
+__pycache__

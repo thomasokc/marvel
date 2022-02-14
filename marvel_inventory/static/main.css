@@ -1,0 +1,27 @@
+.tj-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color:black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid red;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+#header-text{
+    padding: 2vw;
+}
